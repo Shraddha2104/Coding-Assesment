@@ -1,6 +1,6 @@
 This is the link to my assignment which is hosted on AWS
 
-http://testmax-env.ddfvm2a9gs.us-east-2.elasticbeanstalk.com/
+https://shraddha2104.github.io/Coding-Assesment/
 
 I have developed my frontend using JS, HTML, CSS.
 
