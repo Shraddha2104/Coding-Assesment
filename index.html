@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+<!-- landing page where we can select type of Quiz we want to take -->
+  <div class="container">
+      <div id="home" class="flex-center flex-column">
+          <h1>MCQ Quiz</h1>
+          <div id="form-box">
+                <form  action="game.html" method="GET" target="result" onsubmit="">
+                    <select  name="category" class="btn">
+                    <option value="Argument-Structure-Questions" selected="selected">Argument Structure Questions</option>
+                    <option value="Main-Point-Questions">Main Point Questions</option>
+                    <option value="Full-test">Full Test</option>
+                    </select> 
+                    <br>
+                    <br>
+                    <input type="submit" class="btn" value="Play">
+                    <a class="btn" href="highscores.html">High Scores</a>
+                    <a class="btn" href="performance.html">See Performance</a>
+                    </form>
+            </div> 
+      </div>
+  </div>
+</body>
+</html>
+
